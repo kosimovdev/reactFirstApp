@@ -1,0 +1,60 @@
+header {
+  padding-top: 60px;
+  .container {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+    .mainBox {
+      display: flex;
+      justify-content: space-between;
+      .leftBox {
+        img {
+          width: 721px;
+          height: 474px;
+        }
+      }
+      .rightBox {
+        margin-left: 50px;
+        span {
+          color: #999;
+          font-family: Libre Franklin;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 12px; /* 120% */
+          letter-spacing: 1px;
+          text-transform: uppercase;
+        }
+        h1 {
+          color: #000;
+          font-family: Tenor Sans;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 42px; /* 116.667% */
+          text-transform: uppercase;
+          margin-bottom: 27px;
+          margin-top: 18px;
+        }
+        p {
+          color: #666;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 150% */
+          margin-bottom: 27px;
+        }
+        strong {
+          color: #000;
+          font-family: Libre Franklin;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 12px; /* 120% */
+          letter-spacing: 1px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
